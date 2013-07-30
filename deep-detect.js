@@ -13,6 +13,7 @@ var deepDetect = function(list, iterator, context) {
     }
   };
   try {
+    console.log('foo');
     _deepDetect(list, iterator, context);
   }
   catch (err) {
