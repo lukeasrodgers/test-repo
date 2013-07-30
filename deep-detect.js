@@ -7,7 +7,7 @@ var deepDetect = function(list, iterator, context) {
     }
     else {
       var res = _.detect(list, iterator, context);
-      if (!_.isUndefined(res)) {
+      if (res == null) {
         throw res;
       }
     }
