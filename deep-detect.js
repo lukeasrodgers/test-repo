@@ -14,6 +14,7 @@
       }
     };
     try {
+      console.log('foobar');
       _deepDetect(list, iterator, context);
     }
     catch (err) {
