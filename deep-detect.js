@@ -20,7 +20,3 @@ var deepDetect = function(list, iterator, context) {
     return err;
   }
 };
- 
-_.mixin({
-  deepDetect: deepDetect
-});
