@@ -1,6 +1,6 @@
 (function() {
   var deepDetect = function(list, iterator, context) {
-    var _deepDetect = function(list, iterator, context) {
+    var _deepDetect99 = function(list, iterator, context) {
       if (_.isArray(list[0])) {
         _.each(list, function(sublist) {
           return _deepDetect(sublist, iterator, context); 
