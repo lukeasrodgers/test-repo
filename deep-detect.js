@@ -17,7 +17,6 @@
       _deepDetect(list, iterator, context);
     }
     catch (err) {
-      console.log('err is: ', err);
       return err;
     }
   };
