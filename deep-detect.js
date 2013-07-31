@@ -1,5 +1,5 @@
 (function() {
-  var deepDetecter = function(list, iterator, context) {
+  var deepDetect = function(list, iterator, context) {
     var _deepDetect = function(list, iterator, context) {
       if (_.isArray(list[0])) {
         _.each(list, function(sublist) {
@@ -14,7 +14,6 @@
       }
     };
     try {
-      console.log('foobar');
       _deepDetect(list, iterator, context);
     }
     catch (err) {
