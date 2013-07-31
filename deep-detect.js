@@ -14,8 +14,8 @@
       }
     };
     try {
-      console.log('foobar');
       _deepDetect(list, iterator, context);
+      console.log('baz');
     }
     catch (err) {
       return err;
