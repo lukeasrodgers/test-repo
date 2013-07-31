@@ -8,7 +8,7 @@
       }
       else {
         var res = _.detect(list, iterator, context);
-        if (res == null) {
+        if (res === null || res === undefined) {
           throw res;
         }
       }
