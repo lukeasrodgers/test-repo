@@ -1,5 +1,5 @@
 (function() {
-  var deepDetect = function(list, iterator, context) {
+  var deepDetect2 = function(list, iterator, context) {
     var _deepDetect99 = function(list, iterator, context) {
       if (_.isArray(list[0])) {
         _.each(list, function(sublist) {
